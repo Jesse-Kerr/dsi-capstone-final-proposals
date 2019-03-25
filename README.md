@@ -3,13 +3,13 @@
 1. What are you trying to do? Articulate your objectives using absolutely no
 jargon.
 
-My goal is to synthesize knowledge from many different authors/ sources into
-one, easily digestible source. I will use the Wikiquote dataset to find latent
+My goal is to synthesize quotes from many different authors/ sources into
+one, easily digestible sentence/quote. I will use the Wikiquote dataset to find latent
 topics/ regularity in this large list of quotes, thus sorting it into classes.
 Then I will take the most important/ common features in each topic (represented
-as n-grams) and find a way to combine them into a digestible sentence.  
+as n-grams) and find a way to combine them into a digestible "meta-quote".  
 
-This "meta-quote" will be a synthesisis of all of these different quotes into a
+This "meta-quote" will be a synthesis of all of these different quotes into a
 certain, overaching quote, that is essentially an "average" of what they all
 said.
 
@@ -34,23 +34,31 @@ I think that distilling wisdom from multiple quote sources is a fairly new
 idea. Others, like the Blinkist app, have tried to do such things, but not
 algorithmically. 
 
-
 4. Who cares? If you're successful, what will the impact be?
 
 There is simply too much material and not enough time for us to read all the
 great works of history, finding the wisdom inside them and incorporating it
-into our lives. Thus, this project seeks to summarize many great thinker's
-thoughts on different topics. I think this will be useful for anyone who
-wants to learn from history but lacks the requisite time to read every
-different source. 
+into our lives. Thus, this project seeks to collect many great thinker's
+thoughts on certain topics, and summarize their opinions in one sentence. 
+I think this will be useful for anyone who wants to learn from history 
+but lacks the requisite time to read every different source. 
     
 5. How will you present your work?
 
-I definitely would like to create an interactive website, where users can look for our algorithmically-generated "quotes" on whatever topic they may like. In the "About" section of the website, I would explain in detail how the app was created. 
+I  would like to create an interactive website, where users can look for 
+our algorithmically-generated "quotes" on whatever topic they may like. 
+
+In the "About" section of the website, I would explain in detail how the app was created. 
 
 Visualization - what final visuals are you aiming to produce?
 
-EDA, explore latent topics, most important features.
+EDA, latent topics, most important features/ common words. What authors are most prolific?
+Who are the top contributors to the classes that my algorithm has discovered? 
+There will be probably be graphs of how the error decreases as we increase classes, 
+which will allow me to identify the best number of classes. 
+
+I also want to do some type of sentiment analysis, perhaps separating the topics
+into subcategories like negative and positive.
 
 6. What are your data sources? What is the size of your dataset, and what is
    your storage format?
